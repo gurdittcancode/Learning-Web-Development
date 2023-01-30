@@ -1,0 +1,41 @@
+* {
+    background-color: #6b6a6a;
+}
+
+nav>a {
+    color: black;
+    text-decoration: none;
+}
+
+nav>button {
+    background-color: #8f959e;
+}
+
+section>p {
+    font-size: small;
+}
+
+section>div {
+    color: #000000;
+}
+
+section>div>button {
+    background-color: #525252;
+}
+
+#downvote {
+    background-color: #451fce;
+}
+
+#upvote {
+    background-color: #d35727;
+}
+
+img {
+    width: 200px;
+}
+
+footer>ul>li>a {
+    font-size: 12px;
+    color: black;
+}

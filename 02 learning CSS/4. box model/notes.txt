@@ -1,0 +1,16 @@
+                    BOX MODEL
+
+padding, content box, border, height, width
+
+1. BORDER
+    border-width
+    border-color
+    border-style (dashed, solid etc)
+
+    border shorthand (MOST COMMONLY USED)
+    border: give everything using one element instead of using
+
+    border-radius
+        - we can make rounded corners
+        - we can use px, or percentage (percentage of width/height)
+        border-top-left-radius etc
