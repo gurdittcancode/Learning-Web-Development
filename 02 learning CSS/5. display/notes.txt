@@ -1,0 +1,22 @@
+                    DISPLAY
+    - inline
+    - block
+    - inline-block
+
+    display: inline can make a block element an inline element :O !!
+    display: block bruh
+
+    if an element is inline, 
+    - height and width are ignored
+    - padding doesn't displace other elements, it just sits on top of
+        it. it doesn't act as a "force field" (doesn't push everything else away)
+    - margin is respected horizontally, but completely ignored vertically
+
+    if an element is block, everything is respected
+
+
+    INLINE-BLOCK 
+
+    - it behaves like an inline element, but width height margin and padding are respected
+    
+    display: none; hides the element

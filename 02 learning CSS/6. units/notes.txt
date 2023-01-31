@@ -1,0 +1,29 @@
+                    UNITS
+
+1. relative: em, rem, vh, vw, % - very common
+    absolute: px, in, mm, cm
+
+    - percentage
+        in reference to the parent element
+        - sometimes, they work in comparison to text etc (line-height)
+
+    - em's 
+        1em = font-size of the parent
+        2em = twice the size
+
+        with margins, 1 em is not equal to the font-size to the parent
+                    it is equal to the font size of the element
+                
+        article {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 5em;
+            margin-left: 1em;
+        }         
+
+        font-size = 5*20 = 100px
+        margin-left= 1em= 100px
+
+        another fault in pixels - it's an absolute unit 
+                                doesn't scale well when we increase size

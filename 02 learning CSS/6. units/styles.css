@@ -1,0 +1,42 @@
+section {
+    background-color: #717b8b;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #dd7fab;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+} 
+
+h2 { /* <article> iska parent hai */
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+article {
+    font-size: 20px;
+}
+
+p { /* <article> iska parent hai */
+    font-size: 1em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #578896;
+    color: #edf2f4;
+}
