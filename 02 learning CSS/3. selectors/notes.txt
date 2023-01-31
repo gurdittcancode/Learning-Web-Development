@@ -80,7 +80,7 @@ selector {
 
     hence, "cascading" priority
 
-    Also matters across different style-sheets
+    Also matters across different style-sheets - the one which is declared later in the HTML doc will be given more priority
 
 
             SPECIFICITY
@@ -115,5 +115,3 @@ IMPORTANT EXCEPTION
 h2 {
     color: red !important, tells the broswer that this should override every other declaration, no matter how specific it is
 }
-
-INHERITANCE
