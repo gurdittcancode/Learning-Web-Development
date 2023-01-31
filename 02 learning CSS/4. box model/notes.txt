@@ -1,0 +1,20 @@
+                    BOX MODEL
+
+- Everything in CSS is a BOX
+
+- border (obvious)
+- padding (space between content box and border)
+- width (width of content area
+
+1. BORDER
+    - border width
+    - border color
+    - border style
+
+    shorthand 
+    border - width | style | color
+
+    - border radius (rounded corner)
+                    %ages (% of length and width)
+    
+        https://9elements.github.io/fancy-border-radius/
