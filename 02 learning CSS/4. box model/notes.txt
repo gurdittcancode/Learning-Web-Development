@@ -4,7 +4,7 @@
 
 - border (obvious)
 - padding (space between content box and border)
-- width (width of content area
+- width (width of content area) and height
 
 1. BORDER
     - border width
