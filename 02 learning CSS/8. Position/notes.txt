@@ -1,0 +1,21 @@
+                        POSITION
+
+1. Establishes how "top", "bottom", "left", "right" work. 
+
+2. position: static;
+    - default
+    - top, bottom, left and right have no effect
+
+3. position: relative;
+    - element follows the normal flow of the document, but we 
+        can offset it relative to itself
+    - if we say top: 100px, it will push it down 100px from its original
+        position, doesn't move anything else around. We can also put -ve values
+        to move in the opposite direction.
+
+4. position: absolute;
+    - element is removed from the document flow and no space is created for the
+        element.
+    
+5. position: fixed;
+    - the element is fixed to the web page, and it will not move, even if we scroll
