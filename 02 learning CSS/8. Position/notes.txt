@@ -1,21 +1,28 @@
                         POSITION
 
-1. Establishes how "top", "bottom", "left", "right" work. 
+It determines how an element is positioned in a document. The 
+top, bottom, left, & right properties determine the final position.
 
-2. position: static;
-    - default
-    - top, bottom, left and right have no effect
+1. position: static;
+    default
+    top, right, bottom, left and z-index have no effect.
 
-3. position: relative;
-    - element follows the normal flow of the document, but we 
-        can offset it relative to itself
-    - if we say top: 100px, it will push it down 100px from its original
-        position, doesn't move anything else around. We can also put -ve values
-        to move in the opposite direction.
+2. position: relative;
+    keeps the element in the flow of the document, but we can offset it 
+    relative to itself.
+    we can use negative values to offset in the other direction
 
-4. position: absolute;
-    - element is removed from the document flow and no space is created for the
-        element.
-    
-5. position: fixed;
-    - the element is fixed to the web page, and it will not move, even if we scroll
+3. position: absolute;
+    the element is removed from the flow of the document and no space is given 
+    to it. 
+    it's positioned relative to its closest positioned ancestor (anything other than static), if it doesn't 
+    exist, it's positioned relative to the body. 
+
+4. position: fixed;
+    It's like absolute, but it's position will STAY relative to that containing block
+    even if we scroll down/up, it'll maintain its top,left etc
+
+    Can be used in navigation bars like on some websites
+
+5. position: sticky;
+    it starts out in its position, but if we scroll and it hits the top and then it gets fixed 
