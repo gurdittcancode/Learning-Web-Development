@@ -2,7 +2,7 @@
 
 - rotate things, scale, stretch them, move them etc
 
-* margin: auto
+*** margin: 0 auto
     with a block level element, if left and right margins are auto
     they are centered in their container.
 
