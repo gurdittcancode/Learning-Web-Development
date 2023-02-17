@@ -1,0 +1,42 @@
+                        FLEXBOX
+
+0. Main axis (horizontal) and cross axis (vertical axis)
+    by default, main is horizontal(l->r)
+
+1. display: flex;
+    
+2. flex-direction
+    -> changes the 'main' axis direction
+        - row, row-reverse;
+        - column, column-reverse;
+    
+    -> flexbox also makes elements squeeze in a space
+
+
+3. justify-content
+    -> how the content is distributed across the axis
+    by default, justify-content: flex-start;
+                                : flex-end;
+                                : center; 
+                                : space-between -> distributes space between 
+                                  the elements but not on the outside
+                                : space-around -> basically acts like margin
+                                : space-evenly
+
+
+4. flex-wrap: wrap;
+    Determines if our content is going to wrap around the main axis onto a new line
+    or a new column
+
+    flex-wrap: wrap-reverse;
+    usually the cross axis is l->r, but now cross axis is r->l
+
+    flex-wrap: nowrap;
+    duh
+
+
+5. align-items
+    -> aligns items along cross axis (just like justify-content is for main axis)
+    :flex-start -> top to bottom
+    :flex-end;
+    :center     -> you can center an element by setting j-c and align-items to center

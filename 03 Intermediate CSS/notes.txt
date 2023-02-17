@@ -1,0 +1,13 @@
+                        FLEXBOX
+
+- Responsive CSS
+
+- FOCUS ON CONCEPTS, NOT MEMORIZING THE PROPERTIES
+
+- You can use cheatsheets, but you should know what the properties do
+
+
+----------------------------------------------------------------------
+
+1. Layout of items on our web page
+2. Distribute space among elements dynamically, "flexible"
