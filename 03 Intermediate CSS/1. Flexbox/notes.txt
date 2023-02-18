@@ -1,42 +1,51 @@
-                        FLEXBOX
+                        FLEXBOX 
 
-0. Main axis (horizontal) and cross axis (vertical axis)
-    by default, main is horizontal(l->r)
+1. It determines how we distribute space within an element 
 
-1. display: flex;
+2. display: flex;
+    -> This enables flexbox.
+
+        ^
+        |
+    <--------main axis---------->
+        |
+        |   cross axis
+        |
+
+    -> by default, main axis goes l->r 
+
+3. flex-direction 
+    -> decides the direction of the main axis 
+    -> default is 'row', row-reverse, column, column-reverse
+
+    *flexbox makes the elements squeeze in if there isn't enough
+        space*
+
+4. justify-content;
+    -> How the content is distributed in the main axis
+    -> default is flex-start, flex-end, center
+    -> space-between - all of the extra space is distributed BETWEEN the elements
+    -> space-around - all extra space is distributed around and between the elements 
+                        it's kinda like margin
+    -> space-evenly - every space is even 
+
+5. flex-wrap 
+    -> Whether our content is going to wrap around the cross axis onto the next column 
+        or row
     
-2. flex-direction
-    -> changes the 'main' axis direction
-        - row, row-reverse;
-        - column, column-reverse;
-    
-    -> flexbox also makes elements squeeze in a space
+    ****CHANGES DIRECTION OF CROSS AXIS
+
+    -> 'wrap' will wrap it along the cross axis (l->r)
+    -> 'wrap-reverse', 'nowrap'
+
+6. align-items 
+    -> Distribute items along the CROSS axis.
+    -> 'flex-end', 'flex-start' (default), 'center', 'baseline' - we can align items according to the baseline of our text
 
 
-3. justify-content
-    -> how the content is distributed across the axis
-    by default, justify-content: flex-start;
-                                : flex-end;
-                                : center; 
-                                : space-between -> distributes space between 
-                                  the elements but not on the outside
-                                : space-around -> basically acts like margin
-                                : space-evenly
+7. align-content
+    -> controls space between rows/columns along cross axis ONLY when we have multiple rows/columns.
+    -> 'space-between', 'flex-start'
 
-
-4. flex-wrap: wrap;
-    Determines if our content is going to wrap around the main axis onto a new line
-    or a new column
-
-    flex-wrap: wrap-reverse;
-    usually the cross axis is l->r, but now cross axis is r->l
-
-    flex-wrap: nowrap;
-    duh
-
-
-5. align-items
-    -> aligns items along cross axis (just like justify-content is for main axis)
-    :flex-start -> top to bottom
-    :flex-end;
-    :center     -> you can center an element by setting j-c and align-items to center
+8. align-self
+    -> controls the alignment of an individual element.
