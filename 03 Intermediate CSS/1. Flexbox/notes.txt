@@ -48,3 +48,34 @@
     -> distributes spaces on the cross axis.
     -> flex-end, flex-start, center...
     -> 'baseline' aligns the text 
+
+
+6. ALIGN-CONTENT 
+    -> distributes space along the cross axis ONLY when we have multiple
+        rows/columns.
+    
+
+7. ALIGN-SELF
+    -> applies to a single element
+
+
+8. FLEX-BASIS, GROW & SHRINK
+
+    ->FLEX-BASIS
+        determines initial size of an element
+        depends on main axis direction 
+    
+    ->FLEX-GROW
+        controls how much space an element takes if there is extra space
+        -> if one element has flex-grow: 2 and another has 1
+            the extra space will be distributed in the ratio 2:1
+
+    ->FLEX-SHRINK 
+        controls how elements shrink
+
+9. FLEX shorthand
+    3 values: flex-grow | flex-shrink | flex-basis
+    2 values: flex-grow | flex-shrink 
+    2 values(one with units): flex-grow | flex-basis
+    1 value: unitless: flex-grow
+             unit:      flex-basis
