@@ -1,0 +1,50 @@
+                        FLEXBOX
+
+0. FOCUS ON CONCEPTS, NOT MEMORIZING THE PROPERTIES
+
+1. display: flex;
+    -> This turns on flexbox 
+
+
+            ^
+            |
+            |
+    <--------------------------MAIN AXIS----->
+            |
+            |   CROSS AXIS
+            |
+            
+    -> By default, the main axis is LEFT TO RIGHT
+
+2. flex-direction;
+    -> Changes the direction of MAIN AXIS 
+    -> by default it is 'row'
+    -> 'row-reverse' makes it go RIGHT TO LEFT 
+
+    -> 'column' main axis goes from TOP TO BOTTOM
+    -> 'column-reverse'
+
+*** FLEXBOX MAKES THE ELEMENTS FIT IN
+
+
+3. JUSTIFY-CONTENT
+    -> determines how content is distributed in the main axis
+    -> by default, set to flex-start.
+    -> flex-end, moves it to the end.
+    -> center
+    -> space-between, space-around, space-evenly
+
+
+4. FLEX-WRAP
+    -> determines if our content is going to wrap on our main axis 
+        onto a new column/row 
+    -> l->r or r->l is decided by direction of cross axis 
+    -> 'wrap-reverse' changes direction of cross axis
+    -> 'nowrap'
+
+**FLEX-WRAP: WRAP-REVERSE CHANGES THE DIRECTION OF THE CROSS AXIS!!
+
+5. ALIGN-ITEMS
+    -> distributes spaces on the cross axis.
+    -> flex-end, flex-start, center...
+    -> 'baseline' aligns the text 
