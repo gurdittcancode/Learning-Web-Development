@@ -1,0 +1,31 @@
+                    INTRO TO JAVASCRIPT
+
+#DON'T GET FRUSTRATED, JUST BE PATIENT
+
+1. PRIMITIVE TYPES 
+    -> Number
+    -> String
+    -> Boolean
+    -> Null
+    -> undefined
+    * symbol
+    * BigInt
+
+2. At first we will write our code Chrome dev tools
+
+3. JS has one number type.
+    - positive, negative, whole numbers, decimal numbers 
+    - operations 
+    - PEMDAS parentheses, expo, mul, div, add, sub
+    - exponentiation 2**3 = 8
+
+4. Not a Number (NaN)
+    -> represents a number that is defined
+        eg. 0/0, 1 + NaN = NaN
+    
+    -> typeof 
+
+5. Variables
+
+    -> let variableName = value;
+    
