@@ -39,13 +39,3 @@
         to use it now.
 
 ** IN JAVASCRIPT, VARIABLES CAN CHANGE TYPES.
-
-7. STRINGS 
-    -> indexing
-    -> inbuilt funtions
-        - str.length
-        - "str"[0]
-        - "lol" + "lol" - concatenation
-        * We can't update one character at a time, we must reassign the variable.
-
-        - 1 + "hi" = "1hi" (WTF)

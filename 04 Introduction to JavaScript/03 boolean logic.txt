@@ -1,0 +1,5 @@
+<, >, <=, >=, ==, !=
+=== -> strict equality
+!== -> strict inequality
+
+1. You can compare strings, but it can get dicey. They are compared on the basis of Unicode.
