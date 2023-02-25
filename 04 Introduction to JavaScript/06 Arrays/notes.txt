@@ -1,0 +1,27 @@
+-> If we have arr = [1,2,3,4] and we do arr[10] = 10;
+    the array will become [1,2,3,4, empty*5, 10].
+    'empty' will be undefined
+
+-> push => add to end
+    pop => remove from end 
+    shift => remove from start
+    unshift => add to start
+
+1. concat -> merge arrays 
+    array3 = array1.concat(array2);
+    original arrays aren't modified
+
+2. array.includes() -> if an array includes a particular value
+3. array.indexOf()
+4. array.reverse() -> destructive method (changes the original)
+
+5. array.slice() -> gets a copy of the slice of the array
+6. array.splice() -> changes the contents of the array by removing or replacing
+                    existing elements in place.
+
+                    splice(start, delete count, value to be inserted);
+
+7. array.sort() -> lol
+                    - converts everything to strings and then compares their UTF-16 code.        
+                    - doesn't really work
+                    - create your own sorting function. 
