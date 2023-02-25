@@ -16,6 +16,3 @@
 -> console is an object, console.clear(), .time(), .warn()
 
 -> alert("ge4asd"), prompt("dfasd") => asks for input
-
--> to convert a nummber string to a number 
-    parseInt(str);

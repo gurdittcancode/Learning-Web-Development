@@ -56,3 +56,6 @@
     Math.random() -> generates random number (0,1)
 
     Math.floor(Math.random()*m) -> to generate INTEGERS from 0 to m-1
+
+4. -> to convert a nummber string to a number 
+    parseInt(str);
