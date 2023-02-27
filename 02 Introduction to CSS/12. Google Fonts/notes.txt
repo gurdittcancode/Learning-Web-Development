@@ -2,3 +2,5 @@
 
 1. Web-safe fonts 
     - Google offers them for free
+
+2.  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">

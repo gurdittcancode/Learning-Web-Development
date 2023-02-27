@@ -39,7 +39,6 @@
     -> determines if our content is going to wrap on our main axis 
         onto a new column/row 
     -> l->r or r->l is decided by direction of cross axis 
-    -> 'wrap-reverse' changes direction of cross axis
     -> 'nowrap'
 
 **FLEX-WRAP: WRAP-REVERSE CHANGES THE DIRECTION OF THE CROSS AXIS!!
