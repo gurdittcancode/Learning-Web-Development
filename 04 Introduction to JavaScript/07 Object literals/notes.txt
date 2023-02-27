@@ -28,3 +28,22 @@ const fitBitData = {
 
     years.birthYear //error
     years[birthYear] => 2020
+
+5. You can add new key-value pairs using
+    object.key = value
+
+6. You can make an array of objects, or an object with an object inside of it
+    or an object with arrays inside.
+
+    const shoppingCart = [
+        {
+            product: 'Jenga Classic',
+            price: 6.88,
+            quantity: 3
+        }, 
+        {
+            ...
+        }
+    ]
+
+    
