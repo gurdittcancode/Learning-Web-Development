@@ -8,6 +8,3 @@
         undefined
         NaN
     Everything else is truthy
-
-            LOGICAL AND
-    

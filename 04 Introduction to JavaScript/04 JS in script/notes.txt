@@ -4,7 +4,3 @@
 3. to print, write console.log() statements in the JS file.
 4. You can create variables and use them in the console.
 
-
-                        CONDITIONAL
-
-1. if() {}
