@@ -56,3 +56,27 @@ function makeBetweenFunc(min, max) {
 
 // makeBetweenFunc(5, 10) 
 //should make a new function, and that function should tell us if that number is between 5 and 10
+
+//  METHDOS
+
+const myMath = {
+    PI: 3.14159,
+    square: function(x) {
+        return x*x;
+    },
+    cube: function(x) { 
+        return x**3;
+    }
+}
+
+const cat = {
+    name: "Blue Steele",
+    color: "grey",
+    breed: "Scottish fold",
+    meow() {
+        console.log(this);
+        console.log(`${this.name} says - MEOW MEOW MEOW`);
+    }
+}
+
+const meow2 = cat.meow;
