@@ -46,7 +46,7 @@ const math = {
 -> "THIS" KEYWORD
 
     works just like 'this' in OOPS.
-    It's value depends on how the function is called.
+    Its value depends on how the function is called.
     i.e. cat.meow(), meow will be called in the context of cat object
         const meow2 = cat.meow
         meow2() -> will be called in reference to Window object (top-most object);

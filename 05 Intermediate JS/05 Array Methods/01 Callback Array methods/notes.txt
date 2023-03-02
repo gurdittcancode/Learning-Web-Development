@@ -3,7 +3,8 @@ These accept functions as arguments
                         FOR-EACH
 
 Calls the function once per element in the array.
-Not used a lot, because we have for...of
+- It doesn't return anything.
+- Not used a lot, because we have for...of
 
 
                         MAP

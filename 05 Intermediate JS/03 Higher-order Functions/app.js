@@ -42,6 +42,9 @@ function makeMysteryFunc() {
     }
 }
 
+//const mystery = makeMysteryFunc()
+//mystery()
+
 // function isBetween(num) {
 //     return num >= 50 && num <= 100;
 // }
@@ -53,9 +56,9 @@ function makeBetweenFunc(min, max) {
     }
 }
 
-
-// makeBetweenFunc(5, 10) 
-//should make a new function, and that function should tell us if that number is between 5 and 10
+// const testRange = makeBetweenFunc(5, 10) //returning a funtion
+//testRange(9) // true                      running that function
+//testRange(19) //false
 
 //  METHDOS
 

@@ -44,11 +44,11 @@ const movies = [
 
 const texts = ["rofl", "lol", "omg", "ttyl"];
 const ups = texts.map(function (t) {
-    return t.toUpperCase();
+    return t.toUpperCase()
 })
 
 const doubles = numbers.map(function (num) {
-    return num*2;
+    return num*2
 })
 
 const titles = movies.map(function (movie) {

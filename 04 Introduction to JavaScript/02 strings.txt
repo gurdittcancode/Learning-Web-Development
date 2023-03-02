@@ -17,7 +17,7 @@
         - str.trim() [removes whitespaces in the beginning and end]
         
         - you can chain methods together 
-            str.trim().toUpperCase()
+            str.trim().toUpperCase() [L->R execution]
         
         - str.indexOf("substring"), returns first occurence, -1 if not found
         - str.slice(beginIndex, endIndex(optional)); 

@@ -11,7 +11,7 @@
     * symbol
     * BigInt
 
-2. At first we will write our code Chrome dev tools
+2. At first we will write our code in Chrome dev tools
             The console is REPL
                     Read Evaluate Print Loop
 
