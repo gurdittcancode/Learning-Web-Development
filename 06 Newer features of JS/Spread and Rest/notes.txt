@@ -28,3 +28,22 @@ eg. Math.max(1,2,3,4) = 4
 
     const obj = {...[2,4,6,8]}
     obj = {0: 2, 1: 4, 2: 6: 3: 8}
+
+
+                        ARGUMENT OBJECT
+
+- Available inside every function
+- it's an array-like object.
+    has a length property, does not have array methods like push, pop
+
+- stores all the arguments passed to a function
+- not available in arrow functions
+
+eg, Math.min() accepts any number of arguments
+
+
+solution:               REST
+
+Collects all remaining arguments and puts them in an actual array
+
+    

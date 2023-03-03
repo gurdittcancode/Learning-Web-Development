@@ -1,0 +1,11 @@
+                    SELECTING ELEMENTS [select -> manipulate]
+
+1. getElementById()
+    getElementByTagName()
+    getElementByClassName()
+
+    -> We pass a string, and if an element corresponding to that is found, its object is created
+        and then returned. Otherwise it's null
+    -> We can store them in variables.
+
+    
