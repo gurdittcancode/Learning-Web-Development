@@ -1,0 +1,23 @@
+focus on understanding this stuff, not mugging it up. Learn how to google
+
+********************** MANIPULATION ****************************
+
+We'll only study the important ones because there are 100s of properties and methods.
+
+1. innerText, textContent and innerHTML
+
+    *innerText => text inside the opening and closing tags. It shows what the user will see.
+    *textContent => It's just like innerText, BUT it has weird spaces, which come from the markup.
+                    It shows all the text, even what is hidden.
+
+    *innerHTML => Shows the HTML under the hood.
+
+    You can use += syntax like
+    document.querySelector('h1').innerHTML += '<sup>lol is this working</sup>'
+    as it is an object!!
+
+
+2. Working with attributes
+
+    *getAttribute()
+    *setAttribute(what we want to change, new value)
