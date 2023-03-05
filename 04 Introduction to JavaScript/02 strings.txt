@@ -1,6 +1,6 @@
                             STRINGS 
     -> indexing
-    -> inbuilt funtions
+    -> inbuilt properties
         - str.length
         - "str"[0]
         - "lol" + "lol" - concatenation

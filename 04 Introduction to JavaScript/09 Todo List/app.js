@@ -21,7 +21,7 @@ while(query !== "quit" && query !== 'q') {
         }
 
     } else {
-        console.log("I didn't understand that, please enter a valid query");
+        alert("I didn't understand that, please enter a valid query");
     }
     query = prompt("What would you like to do?");
 }

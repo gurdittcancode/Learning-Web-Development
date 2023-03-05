@@ -22,7 +22,7 @@
 
 5. Function expressions
 
-    You can store a function in a variable!
+    You can treat a function as a value, including storing it in a variable!
     const add = function(x,y) {
         return x + y;
     }

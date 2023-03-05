@@ -51,4 +51,4 @@ const movies = [
     }
 ]
 
-movies.some(movie => movie.year > 2020)
+movies.every(movie => movie.year > 1950)

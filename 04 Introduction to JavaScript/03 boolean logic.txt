@@ -13,6 +13,6 @@
 
     *ALWAYS USE ===
 
--> console is an object, console.clear(), .time(), .warn()
+-> console is an object, console.clear(), .time(), .warn(), .dir()
 
 -> alert("ge4asd"), prompt("dfasd") => asks for input

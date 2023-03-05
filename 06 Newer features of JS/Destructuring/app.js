@@ -28,7 +28,7 @@ const user = {email: "harvey@gmail.com",
 
 // const firstName = user.firstName
 //const email = user.email
-// const {email, firstName, lastName, bio, city} = user //varialbe name must match the property in the object
+// const {email, firstName, lastName, bio, city} = user //variable name must match the property in the object
 
 // const {born: birthYear} = user //now our variable is called birthYear
 // const {died: deathYear} = user

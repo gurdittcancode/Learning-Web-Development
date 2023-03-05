@@ -16,6 +16,7 @@ doucment.querySelector('img:nth-of-type(2)');
 //selecting by attribute
 document.querySelector('a[title="Java"]');
 
+//descendant selector
 document.querySelectorAll('p a');
 
 const links = document.querySelectorAll('a');

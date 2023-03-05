@@ -49,3 +49,6 @@ let arr = [1,2,3];
 
 10. Nested arrays 
     const colors = [['red', 'crimson'], ['orange', 'dark orange']];
+
+
+11. You can have arrays of mixed data types!

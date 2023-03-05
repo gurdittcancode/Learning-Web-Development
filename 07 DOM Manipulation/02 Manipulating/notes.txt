@@ -21,3 +21,42 @@ We'll only study the important ones because there are 100s of properties and met
 
     *getAttribute()
     *setAttribute(what we want to change, new value)
+
+    -> We can use dot syntax to access specific attributes
+
+
+                    CHANGING STYLES
+
+h1.style 
+*They are all camel-cased, not snake-cased
+
+1. style object in the DOM doesn't contain anything from our external 
+    stylesheet, it will contain any inline styles we may have put.
+    But we can still change the styles and it will still work.
+    If we change anything, it will generate inline styles.
+
+
+    > Don't do this a lot because it's inline, and you need a lot of lines.
+    > Unless you wrote a style inline, you can't read that style using JS object.
+
+    **
+    const h1 = document.querySelector('h1');
+
+    window.getComputedStyle(h1) -> shows us the final computed style
+    > It's a CSS style decoration, access elements using dot syntax.
+
+2. BETTER OPTION TO AVOID INLINE STYLES
+    > Create a CSS class and apply that class to the desired element
+        h2.setAttribute('class', 'border')
+
+    > If you want to add more classes to an element, you can manually add a space-separated list (tedious)
+    
+    > Use classList
+        h2.classList.add('a')
+        h2.classList.add('b') ... (like push in arrays)
+        h2.classList.remove('b')
+
+        h2.classList.contains()
+
+        Toggle classes ->
+            classList.toggle()

@@ -64,13 +64,3 @@ const highestRated = movies.reduce((high, movie) => {
 
 const evens = [2,4,6,8]
 const evensSum = evens.reduce((sum, num) => sum + num, 100)
-
-//Arrow functions and 'this'
-
-const person = {
-    firstName: 'Viggo',
-    lastName: 'Mortenson', 
-    fullName() {
-        return `${this.firstName} ${this.lastName}`
-    }
-}
