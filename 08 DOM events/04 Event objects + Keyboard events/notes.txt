@@ -1,0 +1,1 @@
+1. Event object is automatically passed to our callback, even if we are not capturing it.
