@@ -12,7 +12,7 @@ Accessing relatives of an element. Sibling, parent, children elements.
     They are going to give us the corresponding DOM node. Counts whitespaces as siblings as well.
 
 5. nextElementSibling, previousElementSibling
-    > gives us the HTML element.
+    > gives us the HTML element and ignores whitespaces.
 
 
 
@@ -33,4 +33,4 @@ Accessing relatives of an element. Sibling, parent, children elements.
     To insert sibling.
     > Kinda crazy how it works, refer to MDN
 
-    You can use before and after, but now all browsers use them.
+    You can use before and after, but not all browsers use them.

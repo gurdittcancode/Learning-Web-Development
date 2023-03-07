@@ -4,7 +4,9 @@ getElementById(), getElementsByTagName()
     getElementsByClassName()
 
     > We pass a string, and if an element corresponding to that is found, its object is created
-        and then returned. Otherwise it's null
+        and then returned. Otherwise it's null. Actual objects hi return hote hain. Collection of 
+        {key:value} pairs.
+
     > We can store them in variables.
 
 1. getElementById()
@@ -35,7 +37,7 @@ getElementById(), getElementsByTagName()
 
     > gives us the first match
 
-    > You can use every CSS selector here
+    > You can use every type of CSS selector here
         document.querySelector('img:nth-of-type()');
 
     document.querySelectorAll
