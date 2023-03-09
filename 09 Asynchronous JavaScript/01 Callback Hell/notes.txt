@@ -1,0 +1,11 @@
+To delay it we have 2 methods 
+> setTimeout, and add delays
+    to change color at an interval of 1 second, we have to write delays as 1000, 2000, 3000... (math >:( )
+
+> Nested setTimeout
+    But nesting can get absolutely crazy and our code can get very deep and nested (Callback Hell)
+
+But we need some mechanism to pause the code execution, because Javascript delegates stuff to browsers and moves on
+
+THIS IS SOLVED USING 'PROMISES' AND 'ASYNC'
+

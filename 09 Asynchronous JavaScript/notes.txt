@@ -1,0 +1,28 @@
+1. FUNCTION CALL STACK
+
+2. JS IS SINGLE-THREADED
+    > At any given point, Js can only run one line of code.
+    > If we write a program that takes 5 seconds to run, does nothing happen in my code for 5 seconds?
+        Does everything stop for that duration?
+
+    > NO 
+
+    console.log("Sending request to server");
+    setTimeout(() => {
+        console.log("Here is your data...");
+    });
+    console.log("End of file");
+
+    o/p ->     Sending request to server
+                End of file
+                Here is your data...
+
+
+    WHY??
+    > The browser does the work. They are written in languages like C++.
+    >  Browsers come with WebAPIs that are able to handle certain tasks in the background like setTimeout and making
+        requests.
+    > Javascript recognizes these WebAPI functions and passes them off to the browser to take care of and continues with its
+        normal execution.
+    > Once the browser finishes that task, it's returned to Javascript.
+
