@@ -1,1 +1,21 @@
-A promise is an object representing the eventual completion or failure of an operation.
+    Promises are pretty new
+
+> A promise is an object representing the eventual completion or failure of an operation.
+
+> Conventionally, we pass a success and failure callback in a request, which makes our code 
+    very nested. Only one of them will run.
+
+PROMISE - pending
+        - rejected
+        - resolved
+
+> You can attach callbacks, instead of passing callbacks to the function.
+    They will run depending on if the promise got rejected or resolved.
+
+.then() -> runs if promise is resolved
+.catch() -> runs if promise is rejected
+
+Till now, they don't seem like an improvement over callbacks.
+
+The magic -
+    You can chain .then()s by returning the promises

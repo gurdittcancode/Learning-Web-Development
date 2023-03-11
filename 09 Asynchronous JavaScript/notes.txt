@@ -1,4 +1,11 @@
 1. FUNCTION CALL STACK
+    > latentflip.com/loupe
+    > Dev Tools
+        1. Go to Sources
+        2. Select your script
+        3. Add a breakpoint in your code (pauses your code execution)
+        4. Refresh 
+        5. Click on the up and down arrows and observe the 'call stack' section.
 
 2. JS IS SINGLE-THREADED
     > At any given point, Js can only run one line of code.
@@ -10,7 +17,7 @@
     console.log("Sending request to server");
     setTimeout(() => {
         console.log("Here is your data...");
-    });
+    }, 5000);
     console.log("End of file");
 
     o/p ->     Sending request to server
@@ -21,8 +28,11 @@
     WHY??
     > The browser does the work. They are written in languages like C++.
     >  Browsers come with WebAPIs that are able to handle certain tasks in the background like setTimeout and making
-        requests.
+        server requests etc..
     > Javascript recognizes these WebAPI functions and passes them off to the browser to take care of and continues with its
         normal execution.
     > Once the browser finishes that task, it's returned to Javascript.
+
+    WORKAROUND
+    > Use callback functions.
 
