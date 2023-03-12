@@ -1,3 +1,6 @@
 1. For the grid system, you need to use 'container' class.
 
 2. To include multiple properties on an element, add it to the list of classes.
+
+3. If you are using button groups, give role="group" to the container, this will 
+    increase accessibility for people using screen-readers.
