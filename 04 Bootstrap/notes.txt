@@ -1,28 +1,10 @@
-                        BOOTSTRAP
+                            BOOTSTRAP
 
-> The most popular CSS framework
+1. CSS that someone else wrote, that we can use in our own code.
 
-> Don't try to memorise this, REFER TO THE DOCS!
+eg. Bulma, Foundation, Semantic UI are like Bootstrap 
 
-> Most of this content is Bootstrap-specific
+2. It helps us quickly create modern and responsive websites, without writing much code.
 
-> Helps us quickly create beautiful websites. It reduces the amount of CSS we have to write.
-
-> Just include the Bootstrap in your document and create components with a very specific class name.
-
-COMPONENTS - pre-built components that we can use in our websites.
-
-1. Download everything on your machine and link it.
-
-2. use a CDN
-    Content Delivery Network it's a hosted stylesheet that we can access remotely
-
-3. Put the link to Bootstrap above your style sheet so that your custom styles don't get 
-    overidden.
-
-4. There are also JS scripts that we should include if we want to use bootstrap with JS.
-
-                        GRID SYSTEM
-
-It's a pre-developed system which we can use by using those specific class names.
-
+3. Components -> pre-made stuff we can use into our code.
+    Grid System -> a layout
