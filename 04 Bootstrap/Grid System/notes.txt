@@ -1,0 +1,11 @@
+                        GRID SYSTEM
+
+Helps us layout our content and create responsive websites.
+
+1. It only works inside a container.
+
+2. Every row in bootstrap has 12 units of space to divvy up
+
+3. To make columns, every class starts with "col-..."
+
+4. If you are lazy and want columns to share equal space, just write class="col"
